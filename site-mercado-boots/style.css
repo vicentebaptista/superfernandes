@@ -1,0 +1,115 @@
+.navbar{
+    z-index: 999;
+    width: auto;
+}
+.baixeapp{
+    width:auto;
+    height: 60vh;
+    background-color: red;
+    border-top: 5px solid yellow;
+    border-bottom: 5px solid yellow;
+}
+.cartoes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.cartao1 {
+    margin: 1rem;
+}
+.cartao2 {
+    margin: 1rem;
+}
+.cartao3{
+    margin: 1rem;
+}
+.historia{
+    width: auto;
+    height: auto;
+    background-image: url(/assets/bg\ fernandes.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    display: grid;
+    border-top: 5px solid yellow;
+    border-bottom: 5px solid yellow;
+}
+.historia h1{
+    margin: auto;
+    margin-top: 1rem;
+    
+}
+.historia div{
+    margin: 2rem;
+    font-weight: 700;
+}
+.atendimento{
+    width: auto;
+    height: 50vh;
+    display: grid;
+    border-bottom: 5px solid yellow;
+    background-color: white;
+    
+}
+.title-atendimento{
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    color: red;
+    background-color: white;
+}
+.atendimento p{
+    text-align: center;
+    margin-top: 0;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer{
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+}
+.socials{
+    margin-left: 0.5em;
+    margin-top: 1em;
+    font-weight: 700;
+    color: #fff;
+}
+.logofooter{
+    margin-top: 1.5em;
+    margin-bottom: 0;
+}
+.footer div{
+    margin-top: 1em;
+    color: white;
+    text-decoration: none;
+}
+.nav-item > .teste-hover:hover{
+    scale: 1.3;
+}
+.qrcode{
+  display: flex;
+}
+.qrcode p{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+
+@media (max-width: 35em){
+.cartoes{display: grid;}
+.footer{
+    display: grid;
+    background-color: red;
+    color: red;
+}
+.secaofooter{margin-bottom: 3em;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+}
